@@ -1,6 +1,6 @@
 # npmtest-ember-cli-pagination
 
-#### test coverage for  [ember-cli-pagination (v3.0.1)](https://github.com/mharris717/ember-cli-pagination#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-ember-cli-pagination.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-ember-cli-pagination) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-ember-cli-pagination.svg)](https://travis-ci.org/npmtest/node-npmtest-ember-cli-pagination)
+#### basic test coverage for  [ember-cli-pagination (v3.0.1)](https://github.com/mharris717/ember-cli-pagination#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-ember-cli-pagination.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-ember-cli-pagination) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-ember-cli-pagination.svg)](https://travis-ci.org/npmtest/node-npmtest-ember-cli-pagination)
 
 #### Addon for Ember CLI to do simple pagination. Compatible with the kaminari API in Rails
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-ember-cli-pagination/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-ember-cli-pagination/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-ember-cli-pagination/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-ember-cli-pagination/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-ember-cli-pagination/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-ember-cli-pagination/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-ember-cli-pagination/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-ember-cli-pagination/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-ember-cli-pagination/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-ember-cli-pagination/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-ember-cli-pagination/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-ember-cli-pagination/build/coverage.html/index.html)
 
@@ -112,7 +112,8 @@
         "setup": "npm install && bower install",
         "test": "ember try:testall"
     },
-    "version": "3.0.1"
+    "version": "3.0.1",
+    "bin": {}
 }
 ```
 
